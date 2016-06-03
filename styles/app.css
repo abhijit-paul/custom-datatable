@@ -1,0 +1,39 @@
+body	{
+	font-family: Times New Roman;
+}
+
+.hideColumn	{
+	display: none;
+}
+
+.alignRight	{
+	text-align: right;
+}
+
+.alignLeft	{
+	text-align: left;
+}
+
+.sorting	{
+	height: 17px;
+	width: 15px;
+}
+
+.sortable	{
+	background-repeat: no-repeat;
+    background-position: center right;
+    padding: 0em 1em;
+	cursor: pointer;
+}
+
+.not_sorted	{
+	background-image: url("../img/not_sorted.png");
+}
+
+.sort_asc	{
+	background-image: url("../img/sort_asc.png")
+}
+
+.sort_desc	{
+	background-image: url("../img/sort_desc.png")
+}
